@@ -87,13 +87,20 @@ Fun Commands
 ```
 
 ##Variables
+
 TOKEN = Your bot token. This is what connects Void Nuker to your Discord Bot.
+
 PREFIX = What makes the bot know its a command, for example a command would be "!ping" if the prefix is !. 
+
 DM_MESSAGE = If you run !dmeveryoneinserver, this is what it sends.
+
 SPAM_MESSAGE = When channels are made, then it sends this message over and over, with @everyone attached to it.
+
 CHANNEL_NAME = When !takecareofchannelsandban is run, it deletes all the channels and replaces it with multiple channels named this. Its typically "FUCKED-BY-*your name here* or "NUKED-BY-*your name here*
+
 ROLE_NAME = When !giveadmintoyourself is run, it makes a role with admin perms. This is what the role is called. Make it something that will blend in, like "Member" or "@everyone".
-BOT_INVITE = https://discord.com/api/oauth2/authorize?client_id=*your bot id here*&permissions=8&scope=bot
+
+BOT_INVITE = https://discord.com/api/oauth2/authorize?client_id=*your-bot-id-here*&permissions=8&scope=bot
 
 ## Contributing
 
